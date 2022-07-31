@@ -11,4 +11,4 @@ RUN pip install --upgrade pip  && \
         
 ADD . .
 RUN chmod +x /code/djangoblog/bin/docker_start.sh
-ENTRYPOINT ["/code/djangoblog/bin/docker_start.sh"]
+ENTRYPOINT ["/code/djangoblog/bin/docker_start.sh"]11
